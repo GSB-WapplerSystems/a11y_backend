@@ -1,0 +1,17 @@
+plugins:
+  - "@semantic-release/commit-analyzer"
+  - "@semantic-release/release-notes-generator"
+  - - "@semantic-release/gitlab"
+    - gitlabUrl: https://git.gsb-itzbund.de
+      assets:
+        - path: gsb-distribution.zip
+          label: GSB Distribution (zip)
+          type: package
+        - path: Documentation/Release.md
+          label: Release Notes
+        - url: https://git.gsb-itzbund.de/gsb11/distribution-package-gsb_frontend/-/blob/main/README.md
+          label: README
+branches:
+  - name: release
+  - name: main
+    prerelease: rc

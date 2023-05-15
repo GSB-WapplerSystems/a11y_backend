@@ -1,0 +1,4 @@
+# Pattern: templates."composer-name"."something-unique" = "overriding-extension-composer-name":"entry-path"
+# e.g.: templates.typo3/cms-backend.1684136800 = itzbund/a11y-backend:Resources/Private/Backend/TemplateOverrides
+# https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/12.0/Feature-96812-OverrideBackendTemplatesWithTSconfig.html
+

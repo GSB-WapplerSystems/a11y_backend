@@ -1,13 +1,11 @@
 <?php
 
 /*
- * This file is part of the package itzbund/gsb-frontend.
+ * This file is part of the package itzbund/a11y-backend.
  *
  * For the full copyright and license information, please read the
  * LICENSE file that was distributed with this source code.
  */
-
-use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
 defined('TYPO3') or die('Access denied.');
 

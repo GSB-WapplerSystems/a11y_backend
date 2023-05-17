@@ -9,11 +9,7 @@ const CopyPlugin = require('copy-webpack-plugin')
 module.exports = {
   // Define the entry points of our application (can be multiple for different sections of a website)
   entry: {
-    screen: './Assets/Scripts/screen.js',
-    mediaelements: './Assets/Scripts/mediaelements.js',
-    swiper: './Assets/Scripts/swiper.js',
-    ckeditor: './Assets/Scripts/ckeditor.js',
-    print: './Assets/Scripts/print.js'
+    screen: './Assets/Scripts/screen.js'
   },
 
   // Define the destination directory and filenames of compiled resources and files
@@ -83,17 +79,6 @@ module.exports = {
       failOnError: true,
       emitErrors: true,
       fix: true
-    }),
-
-    new CopyPlugin({
-      patterns: [
-        {from: './Assets/Static', to: './'}
-      ]
-    }),
-
-    // Load .env file for environment variables in JS
-    new Dotenv({
-      path: './.env'
     }),
 
     // Extracts CSS into separate files

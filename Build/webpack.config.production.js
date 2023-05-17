@@ -81,17 +81,6 @@ module.exports = {
       fix: true
     }),
 
-    new CopyPlugin({
-      patterns: [
-        {from: './Assets/Static', to: './'}
-      ]
-    }),
-
-    // Load .env file for environment variables in JS
-    new Dotenv({
-      path: './.env'
-    }),
-
     // Extracts CSS into separate files
     new MiniCssExtractPlugin({
       filename: 'StyleSheets/[name].css',

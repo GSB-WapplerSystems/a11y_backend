@@ -90,11 +90,6 @@ module.exports = {
       ]
     }),
 
-    // Load .env file for environment variables in JS
-    new Dotenv({
-      path: './.env'
-    }),
-
     // Extracts CSS into separate files
     new MiniCssExtractPlugin({
       filename: 'StyleSheets/[name].css',

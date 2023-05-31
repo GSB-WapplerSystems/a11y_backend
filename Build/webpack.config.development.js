@@ -1,5 +1,4 @@
 const webpack = require('webpack')
-const Dotenv = require('dotenv-webpack')
 const path = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const StyleLintPlugin = require('stylelint-webpack-plugin')

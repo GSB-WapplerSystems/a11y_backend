@@ -1,7 +1,7 @@
 module.exports = {
   plugins: {
     // inline-svg
-    '@andreyvolokitin/postcss-inline-svg': {},
+    'postcss-inline-svg': {},
 
     // preset-env
     'postcss-preset-env': {

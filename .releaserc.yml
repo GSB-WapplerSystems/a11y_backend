@@ -4,8 +4,8 @@ plugins:
   - - "@semantic-release/gitlab"
     - gitlabUrl: https://git.gsb-itzbund.de
       assets:
-        - path: gsb-distribution.zip
-          label: GSB Distribution (zip)
+        - path: frontend.zip
+          label: A11y Backend Frontend (zip)
           type: package
         - path: Documentation/Release.md
           label: Release Notes

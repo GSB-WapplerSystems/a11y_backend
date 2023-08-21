@@ -33,6 +33,12 @@
 		"typo3/coding-standards": "^0.7",
 		"typo3/testing-framework": "dev-main"
 	},
+	"autoload": {
+		"psr-4": {
+			"ITZBund\\A11yBackend\\": "Classes/",
+			"ITZBund\\A11yBackend\\Tests\\": "Tests/"
+		}
+	},
 	"config": {
 		"allow-plugins": true,
 		"bin-dir": ".composer/bin",

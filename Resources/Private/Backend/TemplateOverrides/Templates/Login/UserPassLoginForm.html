@@ -21,8 +21,8 @@
                     id="t3-username"
                     name="username"
                     value="{presetUsername}"
-                    aria-label="{f:translate(key: 'LLL:EXT:backend/Resources/Private/Language/locallang.xlf:login.username')}"
-                    placeholder="{f:translate(key: 'LLL:EXT:backend/Resources/Private/Language/locallang.xlf:login.username')}"
+                    aria-label="{f:translate(key: 'LLL:EXT:backend/Resources/Private/Language/locallang.xlf:login.username', extensionName: 'backend')}"
+                    placeholder="{f:translate(key: 'LLL:EXT:backend/Resources/Private/Language/locallang.xlf:login.username', extensionName: 'backend')}"
                     class="form-control form-control-clearable input-login t3js-clearable t3js-login-username-field"
                     autofocus="autofocus"
                     autocomplete="username"
@@ -36,9 +36,9 @@
                         width="14"
                         height="14"
                         alt=""
-                        title="{f:translate(key: 'LLL:EXT:backend/Resources/Private/Language/locallang.xlf:login.error.capslock')}"
+                        title="{f:translate(key: 'LLL:EXT:backend/Resources/Private/Language/locallang.xlf:login.error.capslock', extensionName: 'backend')}"
                     />
-                    <span class="visually-hidden"><f:translate key="LLL:EXT:backend/Resources/Private/Language/locallang.xlf:login.error.capslockStatus" /></span>
+                    <span class="visually-hidden"><f:translate key="LLL:EXT:backend/Resources/Private/Language/locallang.xlf:login.error.capslockStatus" extensionName="backend" /></span>
                 </div>
             </div>
         </div>
@@ -52,8 +52,8 @@
                     id="t3-password"
                     name="p_field"
                     value="{presetPassword}"
-                    aria-label="{f:translate(key: 'LLL:EXT:backend/Resources/Private/Language/locallang.xlf:login.password')}"
-                    placeholder="{f:translate(key: 'LLL:EXT:backend/Resources/Private/Language/locallang.xlf:login.password')}"
+                    aria-label="{f:translate(key: 'LLL:EXT:backend/Resources/Private/Language/locallang.xlf:login.password', extensionName: 'backend')}"
+                    placeholder="{f:translate(key: 'LLL:EXT:backend/Resources/Private/Language/locallang.xlf:login.password', extensionName: 'backend')}"
                     class="form-control input-login t3js-clearable t3js-login-password-field"
                     autocomplete="current-password"
                     required="required"
@@ -61,7 +61,7 @@
                 />
                 <button type="button"
                     class="t3js-login-toggle-password btn btn-outline-secondary hidden"
-                    aria-label="{f:translate(key: 'LLL:EXT:backend/Resources/Private/Language/locallang.xlf:login.togglePassword')}"
+                    aria-label="{f:translate(key: 'LLL:EXT:backend/Resources/Private/Language/locallang.xlf:login.togglePassword', extensionName: 'backend')}"
                 >
                     <core:icon identifier="actions-eye" size="small" />
                 </button>
@@ -72,9 +72,9 @@
                         width="14"
                         height="14"
                         alt=""
-                        title="{f:translate(key: 'LLL:EXT:backend/Resources/Private/Language/locallang.xlf:login.error.capslock')}"
+                        title="{f:translate(key: 'LLL:EXT:backend/Resources/Private/Language/locallang.xlf:login.error.capslock', extensionName: 'backend')}"
                     />
-                    <span class="visually-hidden"><f:translate key="LLL:EXT:backend/Resources/Private/Language/locallang.xlf:login.error.capslockStatus" /></span>
+                    <span class="visually-hidden"><f:translate key="LLL:EXT:backend/Resources/Private/Language/locallang.xlf:login.error.capslockStatus" extensionName="backend" /></span>
                 </div>
                 </div>
             </div>
@@ -85,7 +85,7 @@
 <f:section name="ResetPassword">
     <div class="forgot-password my-3">
         <div class="text-end">
-            <a href="{forgetPasswordUrl}"><f:translate key="LLL:EXT:backend/Resources/Private/Language/locallang.xlf:login.password_forget" /></a>
+            <a href="{forgetPasswordUrl}"><f:translate key="LLL:EXT:backend/Resources/Private/Language/locallang.xlf:login.password_forget" extensionName="backend" /></a>
         </div>
     </div>
 </f:section>

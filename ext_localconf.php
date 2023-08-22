@@ -11,7 +11,7 @@
 defined('TYPO3') or die('Access denied.');
 
 
-//todo: replace wen other method is avalible
+//todo: replace when other method is available
 $GLOBALS['TYPO3_CONF_VARS']['SYS']['Objects'][TYPO3\CMS\Backend\Controller\LoginController::class] = [
     'className' => \ITZBund\A11yBackend\Controller\LoginControllerXclass::class,
 ];

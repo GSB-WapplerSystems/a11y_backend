@@ -17,7 +17,6 @@ use TYPO3\CMS\Fluid\View\StandaloneView;
 #[Controller]
 class LoginControllerXclass extends \TYPO3\CMS\Backend\Controller\LoginController
 {
-
     /**
      * Initialize the login box. Will also react on a &L=OUT flag and exit.
      */

@@ -1,5 +1,4 @@
 <?php
-
 /*
  * This file is part of the package itzbund/a11y-backend.
  *
@@ -7,9 +6,7 @@
  * LICENSE file that was distributed with this source code.
  */
 
-
 defined('TYPO3') or die('Access denied.');
-
 
 //todo: replace when other method is available
 $GLOBALS['TYPO3_CONF_VARS']['SYS']['Objects'][TYPO3\CMS\Backend\Controller\LoginController::class] = [

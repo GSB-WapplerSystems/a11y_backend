@@ -1,5 +1,4 @@
 <?php
-
 /*
  * This file is part of the package itzbund/a11y-backend.
  *
@@ -8,6 +7,11 @@
  */
 
 defined('TYPO3') or die('Access denied.');
+
+//todo: replace when other method is available
+$GLOBALS['TYPO3_CONF_VARS']['SYS']['Objects'][TYPO3\CMS\Backend\Controller\LoginController::class] = [
+    'className' => \ITZBund\A11yBackend\Controller\LoginControllerXclass::class,
+];
 
 (function () {
     // https://docs.typo3.org/c/typo3/cms-core/main/en-us//Changelog/12.3/Deprecation-100033-TBE_STYLESStylesheetAndStylesheet2.html

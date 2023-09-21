@@ -3,6 +3,9 @@
 declare(strict_types=1);
 
 
+
+
+
 namespace ITZBund\A11yBackend\Controller;
 
 use JetBrains\PhpStorm\NoReturn;
@@ -102,14 +105,13 @@ class SetupModuleControllerXclass extends \TYPO3\CMS\Setup\Controller\SetupModul
                         $noAutocomplete = 'autocomplete="new-password" ';
                     }
                     $html = '<input id="field_' . htmlspecialchars($fieldName) . '"
-
-                type="' . htmlspecialchars($type) . '"
-                aria-describedby="description_' . htmlspecialchars($fieldName) . '"
-                name="data' . $dataAdd . '[' . htmlspecialchars($fieldName) . ']" ' .
+                        type="' . htmlspecialchars($type) . '"
+                        aria-describedby="description_' . htmlspecialchars($fieldName) . '"
+                        name="data' . $dataAdd . '[' . htmlspecialchars($fieldName) . ']" ' .
                         $noAutocomplete .
                         'value="' . htmlspecialchars((string)$value) . '" ' .
                         $more .
-' />';
+                        ' />';
 
                     if ($fieldName === 'password' && $this->passwordPolicyValidator->isEnabled() && $this->passwordPolicyValidator->hasRequirements()) {
                         $description = $this->getLanguageService()->sL('LLL:EXT:core/Resources/Private/Language/locallang_password_policy.xlf:passwordRequirements.description');

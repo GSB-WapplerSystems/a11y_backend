@@ -2,18 +2,6 @@
 
 declare(strict_types=1);
 
-/*
- * This file is part of the TYPO3 CMS project.
- *
- * It is free software; you can redistribute it and/or modify it under
- * the terms of the GNU General Public License, either version 2
- * of the License, or any later version.
- *
- * For the full copyright and license information, please read the
- * LICENSE.txt file that was distributed with this source code.
- *
- * The TYPO3 project - inspiring people to share!
- */
 
 namespace ITZBund\A11yBackend\Controller;
 
@@ -114,13 +102,14 @@ class SetupModuleControllerXclass extends \TYPO3\CMS\Setup\Controller\SetupModul
                         $noAutocomplete = 'autocomplete="new-password" ';
                     }
                     $html = '<input id="field_' . htmlspecialchars($fieldName) . '"
-                        type="' . htmlspecialchars($type) . '"
-                        aria-describedby="description_' . htmlspecialchars($fieldName) . '"
-                        name="data' . $dataAdd . '[' . htmlspecialchars($fieldName) . ']" ' .
+
+                type="' . htmlspecialchars($type) . '"
+                aria-describedby="description_' . htmlspecialchars($fieldName) . '"
+                name="data' . $dataAdd . '[' . htmlspecialchars($fieldName) . ']" ' .
                         $noAutocomplete .
                         'value="' . htmlspecialchars((string)$value) . '" ' .
                         $more .
-                        ' />';
+' />';
 
                     if ($fieldName === 'password' && $this->passwordPolicyValidator->isEnabled() && $this->passwordPolicyValidator->hasRequirements()) {
                         $description = $this->getLanguageService()->sL('LLL:EXT:core/Resources/Private/Language/locallang_password_policy.xlf:passwordRequirements.description');

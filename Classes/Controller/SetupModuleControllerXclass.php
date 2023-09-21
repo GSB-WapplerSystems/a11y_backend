@@ -31,7 +31,6 @@ use TYPO3\CMS\Core\Utility\GeneralUtility;
 #[Controller]
 class SetupModuleControllerXclass extends \TYPO3\CMS\Setup\Controller\SetupModuleController
 {
-
     /**
      * renders the data for all tabs in the user setup and returns
      * everything that is needed with tabs and dyntab menu
@@ -301,6 +300,4 @@ class SetupModuleControllerXclass extends \TYPO3\CMS\Setup\Controller\SetupModul
         ];
         return $result;
     }
-
-
 }

@@ -56,11 +56,6 @@
 			"web-dir": ".composer"
 		}
 	},
-	"husky": {
-		"hooks": {
-			"pre-commit": "vendor/bin/php-cs-fixer fix && git add ."
-		}
-	},
 	"scripts": {
 		"composer:normalize": "@composer normalize --dry-run --no-check-lock",
 		"composer:normalize:fix": "@composer normalize --no-check-lock",

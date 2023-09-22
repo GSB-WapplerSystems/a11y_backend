@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace ITZBund\A11yBackend\Controller;
 
-use JetBrains\PhpStorm\NoReturn;
 use TYPO3\CMS\Backend\Backend\Avatar\DefaultAvatarProvider;
 use TYPO3\CMS\Backend\Routing\Exception\RouteNotFoundException;
 use TYPO3\CMS\Core\Imaging\Icon;
@@ -25,7 +24,7 @@ class SetupModuleControllerXclass extends \TYPO3\CMS\Setup\Controller\SetupModul
      * @return array Ready to use for the dyntabmenu itemarray
      * @throws RouteNotFoundException
      */
-    #[NoReturn] protected function renderUserSetup(): array
+    protected function renderUserSetup(): array
     {
         $backendUser = $this->getBackendUser();
         $html = '';

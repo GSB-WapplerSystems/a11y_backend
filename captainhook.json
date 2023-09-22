@@ -1,4 +1,8 @@
 {
+	"config": {
+		"bootstrap": ".composer/vendor/autoload.php",
+		"run-path": ".composer/bin/captainhook"
+	},
     "commit-msg": {
         "enabled": true,
         "actions": [
@@ -23,7 +27,7 @@
                 "options": []
             },
             {
-                "action": "php .composer/bin/php-cs-fixer fix --config .php-cs-fixer.dist.php -v --using-cache no --diff",
+                "action": "php .composer/bin/php-cs-fixer fix --config .php-cs-fixer.dist.php -v --using-cache no --diff && git add {$STAGED_FILES|of-type:php}",
                 "options": []
             }
         ]

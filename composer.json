@@ -9,6 +9,8 @@
 		"typo3/cms-backend": "^12.4"
 	},
 	"require-dev": {
+		"captainhook/captainhook": "^5.16",
+		"captainhook/plugin-composer": "^5.3",
 		"codeception/codeception": "*",
 		"codeception/module-asserts": "*",
 		"codeception/module-db": "*",

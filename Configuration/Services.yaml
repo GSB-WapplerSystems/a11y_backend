@@ -1,0 +1,9 @@
+services:
+  _defaults:
+    public: false
+    autowire: true
+    autoconfigure: true
+
+  ITZBund\A11yBackend\:
+    resource: '../Classes/*'
+    exclude: '../Classes/Domain/Model/*'

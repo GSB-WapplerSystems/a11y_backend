@@ -1,1 +1,25 @@
 // typography
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --typo3-component-color: var(--typo3-light-color);
+    --typo3-component-primary-color: var(--typo3-light-primary-color);
+    --typo3-component-secondary-color: var(--typo3-light-secondary-color);
+    --typo3-component-bg: var(--typo3-light-bg);
+    --typo3-component-border-color: var(--typo3-light-border-color);
+    --typo3-component-link-color: var(--typo3-light-link-color);
+    --typo3-component-link-hover-color: var(--typo3-light-link-hover-color);
+    --typo3-component-hover-color: var(--typo3-light-hover-color);
+    --typo3-component-hover-bg: var(--typo3-light-hover-bg);
+    --typo3-component-hover-border-color: var(--typo3-light-hover-border-color);
+    --typo3-component-focus-color: var(--typo3-light-focus-color);
+    --typo3-component-focus-bg: var(--typo3-light-focus-bg);
+    --typo3-component-focus-border-color: var(--typo3-light-focus-border-color);
+    --typo3-component-active-color: var(--typo3-light-active-color);
+    --typo3-component-active-bg: var(--typo3-light-active-bg);
+    --typo3-component-active-border-color: var(--typo3-light-active-border-color);
+    --typo3-component-disabled-color: var(--typo3-light-disabled-color);
+    --typo3-component-disabled-bg: var(--typo3-light-disabled-bg);
+    --typo3-component-disabled-border-color: var(--typo3-light-disabled-border-color);
+  }
+}

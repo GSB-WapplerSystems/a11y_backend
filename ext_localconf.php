@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the TYPO3 GSB 11.
+ * This file is part of the package itzbund/a11y-backend of the GSB 11 Project by ITZBund
  *
  * (c) Christian Rath-Ulrich <christian.rath-ulrich@digitaspixelpark.com> 2023
  * (c) Kai Ole Hartwig <o.hartwig@moselwal.de> 2023

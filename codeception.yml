@@ -1,3 +1,7 @@
+authors:
+  - name: Kai Ole Hartwig
+    email: o.hartwig@moselwal.de
+license: GPL-2.0-or-later
 namespace: Tests
 support_namespace: Support
 suites:

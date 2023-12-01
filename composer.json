@@ -5,6 +5,28 @@
 		"GPL-2.0-or-later"
 	],
 	"type": "typo3-cms-extension",
+	"authors": [
+		{
+			"name": "Kai Ole Hartwig",
+			"email": "o.hartwig@moselwal.de"
+		},
+		{
+			"name": "Matthias Pelzer",
+			"email": "matthias.pelzer@digitaspixelpark.com"
+		},
+		{
+			"name": "Michael Max Busch",
+			"email": "m.busch@moselwal.de"
+		},
+		{
+			"name": "Patrick Schriner",
+			"email": "patrick.schriner@diemedialen.de"
+		},
+		{
+			"name": "Christian Rath-Ulrich",
+			"email": "christian.rath-ulrich@digitaspixelpark.com"
+		}
+	],
 	"require": {
 		"typo3/cms-backend": "^12.4"
 	},

@@ -1,11 +1,9 @@
 # RELEASEBEGLEITBLATT
 
-## GSB TYPO3 Frontend Package
+## GSB 11 a11y Backend Package
 
-Diese Version des GSB TYPO3 Distribution Package basiert auf TYPO3 12.4 und
-PHP 8.1 und unterstützt folgende TYPO3-Module: Papierkorb, Workspaces, Planer.
-Zusätzlich beinhaltet sie die folgenden Inhaltselemente: Header, Text mit Bild,
-Bild, Text und Slider. Die Extension container von b13 wurde ebenfalls eingebunden.
+Diese Version des GSB 11 a11y Backend Package basiert auf TYPO3 12.4 und
+PHP 8.2.
 
 ### Neue Funktionen:
 
@@ -22,7 +20,7 @@ Bekannte Fehler sind im Projekt-Jira erfasst.
 ### Systemanforderungen:
 
 * TYPO3 12.4
-* PHP 8.1
+* PHP 8.2 (Support für PHP 8.1 - 8.3)
 * Node 18
 * Composer 2
 

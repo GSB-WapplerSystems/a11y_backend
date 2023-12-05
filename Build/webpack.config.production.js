@@ -8,7 +8,8 @@ const CopyPlugin = require('copy-webpack-plugin')
 module.exports = {
   // Define the entry points of our application (can be multiple for different sections of a website)
   entry: {
-    screen: './Assets/Scripts/screen.js'
+    screen: './Assets/Scripts/screen.js',
+    'aria-validation-hints': './Assets/Scripts/aria-validation-hints.js'
   },
 
   // Define the destination directory and filenames of compiled resources and files

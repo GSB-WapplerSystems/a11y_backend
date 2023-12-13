@@ -8,8 +8,7 @@ const CopyPlugin = require('copy-webpack-plugin')
 module.exports = {
   // Define the entry points of our application (can be multiple for different sections of a website)
   entry: {
-    screen: './Assets/Scripts/screen.js',
-    'aria-validation-hints': './Assets/Scripts/aria-validation-hints.js'
+    screen: './Assets/Scripts/screen.js'
   },
 
   // Define the destination directory and filenames of compiled resources and files
@@ -79,6 +78,12 @@ module.exports = {
       failOnError: true,
       emitErrors: true,
       fix: true
+    }),
+
+    new CopyPlugin({
+      patterns: [
+        {from: './Assets/Static', to: './'}
+      ]
     }),
 
     // Extracts CSS into separate files

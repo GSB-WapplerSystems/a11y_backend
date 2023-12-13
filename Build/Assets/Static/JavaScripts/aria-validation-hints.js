@@ -20,6 +20,8 @@ class AriaValidationHints {
     this.initialize()
   }
 
+  static markedFields = [];
+
   static addAriaValidationHints () {
     AriaValidationHints.markedFields.forEach(function (elem) {
       elem.setAttribute('aria-invalid', false)

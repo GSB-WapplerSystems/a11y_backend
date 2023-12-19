@@ -80,6 +80,12 @@ module.exports = {
       fix: true
     }),
 
+    new CopyPlugin({
+      patterns: [
+        {from: './Assets/Static', to: './'}
+      ]
+    }),
+
     // Extracts CSS into separate files
     new MiniCssExtractPlugin({
       filename: 'StyleSheets/[name].css',

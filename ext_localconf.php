@@ -15,6 +15,8 @@
  * LICENSE file that was distributed with this source code.
  */
 
+use ITZBund\A11yBackend\Hook\AddAriaValidationJavascript;
+
 defined('TYPO3') or die('Access denied.');
 
 //todo: replace when other method is available
@@ -26,6 +28,8 @@ $GLOBALS['TYPO3_CONF_VARS']['SYS']['Objects'][TYPO3\CMS\Backend\Controller\Login
 $GLOBALS['TYPO3_CONF_VARS']['SYS']['Objects'][TYPO3\CMS\Setup\Controller\SetupModuleController::class] = [
     'className' => \ITZBund\A11yBackend\Controller\SetupModuleControllerXclass::class,
 ];
+
+$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['t3lib/class.t3lib_pagerenderer.php']['render-preProcess']['a11y_backend_aria_validation'] = AddAriaValidationJavascript::class . '->addJavascript';
 
 (function () {
     // https://docs.typo3.org/c/typo3/cms-core/main/en-us//Changelog/12.3/Deprecation-100033-TBE_STYLESStylesheetAndStylesheet2.html

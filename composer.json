@@ -57,6 +57,9 @@
 		"typo3/coding-standards": "^0.7",
 		"typo3/testing-framework": "dev-main"
 	},
+	"suggest": {
+		"itzbund/gsb-core": "For adjusting it's b13:container templates"
+	},
 	"autoload": {
 		"psr-4": {
 			"ITZBund\\A11yBackend\\": "Classes/",

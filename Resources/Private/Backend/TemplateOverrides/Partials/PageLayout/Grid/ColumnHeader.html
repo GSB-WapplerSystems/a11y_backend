@@ -10,10 +10,10 @@
             </div>
             <f:if condition="{languageColumns}">
                 <f:then>
-                    <h3 class="h4">{column.title}</h3>
+                    <h3 class="h4" arial-label="{f:translate(key: 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:colPos_formlabel')}: {column.title}">{column.title}</h3>
                 </f:then>
                 <f:else>
-                    <h2 class="h4">{column.title}</h2>
+                    <h2 class="h4" arial-label="{f:translate(key: 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:colPos_formlabel')}: {column.title}">{column.title}</h2>
                 </f:else>
             </f:if>
         </f:then>

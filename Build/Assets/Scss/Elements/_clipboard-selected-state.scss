@@ -5,6 +5,6 @@
  */
 
 // underlined clipboard selected
-typo3-backend-clipboard-panel button:has(*[identifier="actions-check-circle-alt"]) {
+.typo3-backend-clipboard-panel button:has(*[identifier="actions-check-circle-alt"]) {
   text-decoration: underline;
 }

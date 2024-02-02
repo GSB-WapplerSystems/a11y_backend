@@ -10,9 +10,7 @@
 		"watch": "webpack --config webpack.config.development.js --mode development --watch",
 		"lint:eslint": "eslint Assets/**/*.js",
 		"lint:eslint.fix": "eslint --fix Assets/**/*.js",
-		"lint:eslint.report.junit": "eslint -f junit -o reports/eslintreport.junit.xml Assets/**/*.js",
 		"lint:stylelint.report.json": "stylelint --config stylelint.config.js -f json -o reports/stylelintreport.json Assets/Scss/**/*.scss",
-		"lint:stylelint.report.junit": "stylelint --config stylelint.config.js --custom-formatter 'node_modules/stylelint-junit-formatter' -o reports/stylelintreport.junit.xml Assets/Scss/**/*.scss",
 		"lint:stylelint.report.verbose": "stylelint --config stylelint.config.js -f verbose -o reports/stylelintreport.verbose.txt Assets/Scss/**/*.scss"
 	},
 	"author": "ITZBund",
@@ -42,12 +40,10 @@
 		"stylelint-config-recommended": "^14.0.0",
 		"stylelint-config-recommended-scss": "^14.0.0",
 		"stylelint-config-standard": "^36.0.0",
-		"stylelint-junit-formatter": "^0.2.2",
 		"stylelint-order": "^6.0.4",
 		"stylelint-scss": "^6.1.0",
 		"stylelint-webpack-plugin": "^5.0.0",
 		"webpack": "^5.90.1",
-		"webpack-cli": "^5.1.4",
-		"xml2js": "^0.6.2"
+		"webpack-cli": "^5.1.4"
 	}
 }

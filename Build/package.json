@@ -10,7 +10,9 @@
 		"watch": "webpack --config webpack.config.development.js --mode development --watch",
 		"lint:eslint": "eslint Assets/**/*.js",
 		"lint:eslint.fix": "eslint --fix Assets/**/*.js",
+		"lint:eslint.report.junit": "eslint -f junit -o reports/eslintreport.junit.xml Assets/**/*.js",
 		"lint:stylelint.report.json": "stylelint --config stylelint.config.js -f json -o reports/stylelintreport.json Assets/Scss/**/*.scss",
+		"lint:stylelint.report.junit": "stylelint --config stylelint.config.js --custom-formatter node_modules/stylelint-checkstyle-reporter/dist/stylelint-checkstyle-reporter.mjs -o reports/stylelintreport.junit.xml Assets/Scss/**/*.scss",
 		"lint:stylelint.report.verbose": "stylelint --config stylelint.config.js -f verbose -o reports/stylelintreport.verbose.txt Assets/Scss/**/*.scss"
 	},
 	"author": "ITZBund",
@@ -28,7 +30,7 @@
 		"fast-glob": "^3.3.2",
 		"mini-css-extract-plugin": "^2.8.0",
 		"path": "^0.12.7",
-		"postcss": "^8.4.33",
+		"postcss": "^8.4.34",
 		"postcss-inline-svg": "^6.0.0",
 		"postcss-loader": "^8.1.0",
 		"postcss-preset-env": "^9.3.0",
@@ -37,6 +39,7 @@
 		"sass-loader": "^14.1.0",
 		"style-loader": "^3.3.4",
 		"stylelint": "^16.2.1",
+		"stylelint-checkstyle-reporter": "^1.0.0",
 		"stylelint-config-recommended": "^14.0.0",
 		"stylelint-config-recommended-scss": "^14.0.0",
 		"stylelint-config-standard": "^36.0.0",
@@ -44,6 +47,7 @@
 		"stylelint-scss": "^6.1.0",
 		"stylelint-webpack-plugin": "^5.0.0",
 		"webpack": "^5.90.1",
-		"webpack-cli": "^5.1.4"
+		"webpack-cli": "^5.1.4",
+		"xml2js": "^0.6.2"
 	}
 }

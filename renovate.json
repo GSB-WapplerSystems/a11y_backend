@@ -1,0 +1,21 @@
+{
+  "dependencyDashboard": true,
+  "prHourlyLimit": 2,
+  "enabledManagers": ["npm", "composer"],
+  "packageRules": [
+    {
+        "updateTypes": ["major"],
+        "enabled": false
+    },
+    {
+      "matchManagers": ["npm"],
+      "automerge": true,
+      "matchUpdateTypes": ["minor", "patch"]
+    },
+    {
+      "matchManagers": ["composer"],
+      "automerge": true,
+      "matchUpdateTypes": ["minor", "patch"]
+    }
+  ]
+}

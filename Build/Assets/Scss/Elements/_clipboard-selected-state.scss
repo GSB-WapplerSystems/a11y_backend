@@ -5,6 +5,7 @@
  */
 
 // underlined clipboard selected
-.typo3-backend-clipboard-panel button:has(*[identifier="actions-check-circle-alt"]) {
+// typo3-backend-clipboard-panel is a custom element
+typo3-backend-clipboard-panel button[aria-checked="true"] { /* stylelint-disable selector-type-no-unknown */
   text-decoration: underline;
 }

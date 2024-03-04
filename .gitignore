@@ -3,3 +3,4 @@ composer.lock
 .DS_Store
 /Build/node_modules/
 /Build/reports/
+auth.json

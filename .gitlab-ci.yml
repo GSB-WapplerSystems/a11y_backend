@@ -8,5 +8,5 @@ stages:
 
 include:
   - project: 'gsb11/gitlab-scripts'
-    ref: extension_commit_msg
+    ref: main
     file: 'default-extension.yml'

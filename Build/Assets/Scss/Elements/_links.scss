@@ -1,0 +1,28 @@
+/*
+ * This file is part of the package itzbund/a11y-backend of the GSB 11 Project by ITZBund
+ * (c) Matthias Peltzer <matthias.peltzer@digitaspixelpark.com> 2023
+ * Licensed under the GPL 2.0 License.
+ */
+
+// links
+
+.card-login {
+  a {
+    &:hover,
+    &:focus,
+    &:active {
+      outline: 1px solid #000;
+      outline-offset: 2px;
+    }
+
+    &.typo3-login-copyright-link {
+      display: block;
+
+      &:hover,
+      &:focus,
+      &:active {
+        outline-offset: 5px;
+      }
+    }
+  }
+}

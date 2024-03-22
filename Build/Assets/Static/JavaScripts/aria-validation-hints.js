@@ -12,7 +12,7 @@
  */
 
 import DocumentService from '@typo3/core/document-service.js'
-import FormEngine from '@typo3/backend/form-engine.js'
+import FormEngineValidation from '@typo3/backend/form-engine-validation.js'
 import $ from 'jquery'
 
 class AriaValidationHints {
@@ -39,7 +39,7 @@ class AriaValidationHints {
   }
 
   static findInvalidFields () {
-    return document.querySelectorAll('.tab-content .' + FormEngine.Validation.errorClass)
+    return document.querySelectorAll('.tab-content .' + FormEngineValidation.errorClass)
   }
 
   initialize () {

@@ -1,8 +1,3 @@
-# This file is part of the package itzbund/a11y-backend of the GSB 11 Project by ITZBund
-# (c) Christian Rath-Ulrich <christian.rath-ulrich@digitaspixelpark.com> 2023
-# (c) Kai Ole Hartwig <o.hartwig@moselwal.de> 2023
-# Licensed under the GPL 2.0 License.
-
 # Pattern: templates."composer-name"."something-unique" = "overriding-extension-composer-name":"entry-path"
 # e.g.: templates.typo3/cms-backend.1684136800 = itzbund/a11y-backend:Resources/Private/Backend/TemplateOverrides
 # https://docs.typo3.org/c/typo3/cms-core/main/en-us/Changelog/12.0/Feature-96812-OverrideBackendTemplatesWithTSconfig.html

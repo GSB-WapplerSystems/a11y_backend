@@ -1,9 +1,10 @@
 <?php
 
 /*
- * This file is part of the package itzbund/a11y-backend of the GSB 11 Project by ITZBund
+ * This file is part of the package itzbund/a11y-backend of the GSB 11 Project by ITZBund.
  *
- * (c) Christian Rath-Ulrich <christian.rath-ulrich@digitaspixelpark.com> 2023
+ * Copyright (C) 2023 - 2024 Bundesrepublik Deutschland, vertreten durch das
+ * BMI/ITZBund. Author: Christian Rath-Ulrich
  *
  * It is free software; you can redistribute it and/or modify it under
  * the terms of the GNU General Public License, either version 2

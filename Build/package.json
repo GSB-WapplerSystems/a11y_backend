@@ -33,7 +33,7 @@
 		"postcss": "8.4.38",
 		"postcss-inline-svg": "6.0.0",
 		"postcss-loader": "8.1.1",
-		"postcss-preset-env": "9.5.9",
+		"postcss-preset-env": "9.5.10",
 		"postcss-pxtorem": "6.1.0",
 		"sass": "1.76.0",
 		"sass-loader": "14.2.1",

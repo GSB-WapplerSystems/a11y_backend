@@ -2,7 +2,7 @@
 	"name": "itzbund/a11y-backend",
 	"description": "A11y Backend",
 	"license": [
-		"GPL-2.0-or-later"
+		"GPL-3.0-or-later"
 	],
 	"type": "typo3-cms-extension",
 	"authors": [

@@ -8,8 +8,8 @@
 				<target>Datei sichtbar schalten</target>
 			</trans-unit>
 			<trans-unit id="sys_file_metadata.visible.description" resname="sys_file_metadata.visible.description">
-				<source>Toggle if you want to hide the file</source>
-				<target>Bitte aktivieren Sie diese Option, wenn die Datei unsichtbar sein soll.</target>
+				<source>To hide the file, this option is activated.</source>
+				<target>Um die Datei zu verbergen, wird diese Option aktiviert.</target>
 			</trans-unit>
 		</body>
 	</file>

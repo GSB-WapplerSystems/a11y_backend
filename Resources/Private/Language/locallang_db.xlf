@@ -7,7 +7,7 @@
 				<source>Toggle file visibility</source>
 			</trans-unit>
 			<trans-unit id="sys_file_metadata.visible.description" resname="sys_file_metadata.visible.description">
-				<source>Toggle if you want to hide the file</source>
+				<source>To hide the file, this option is activated.</source>
 			</trans-unit>
         </body>
     </file>

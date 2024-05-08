@@ -7,6 +7,7 @@ defined('TYPO3') || die();
 (static function (): void {
     $newColumns = [
         'visible' => [
+            //todo: deprecated refactor for TYPO3 13
             'exclude' => true,
             'label' => 'LLL:EXT:a11y_backend/Resources/Private/Language/locallang_db.xlf:sys_file_metadata.visible.label',
             'description' => 'LLL:EXT:a11y_backend/Resources/Private/Language/locallang_db.xlf:sys_file_metadata.visible.description',

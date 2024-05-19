@@ -52,7 +52,7 @@ description:
 
     features:
       - Barrierefreiheitsverbesserungen im TYPO3 Backend
-    documentation: 'https://gitlab.opencode.de/bmi/government-site-builder-11/documentation'
+    documentation: 'https://gitlab.opencode.de/bmi/government-site-builder-11/extensions/a11y_backend'
   en:
     genericName: content-management-system
     shortDescription: GSB 11 - a11y_backend
@@ -73,7 +73,7 @@ description:
 
     features:
       - Options for a barrier-free TYPO3 backend
-    documentation: 'https://gitlab.opencode.de/bmi/government-site-builder-11/documentation'
+    documentation: 'https://gitlab.opencode.de/bmi/government-site-builder-11/extensions/a11y_backend'
 dependsOn:
   open:
     - name: TYPO3

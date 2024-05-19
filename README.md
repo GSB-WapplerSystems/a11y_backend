@@ -13,6 +13,20 @@ The extension a11y_backend contains several enhancements of the accessibility of
 ## Installation
 The best way to install this extension is to start with the [GSB Sitepackage Kickstarter][kickstarter-url] extension.
 
+## Quick installation without GSB Sitepackage Kickstarter
+In a composer-based TYPO3 installation you can install the extension EXT:a11y_backend via composer:
+
+```sh
+composer config -g gitlab-domains gitlab.opencode.de && \
+composer config -g repositories.a11y-backend vcs https://gitlab.opencode.de/bmi/government-site-builder-11/extensions/a11y_backend
+```
+
+```sh
+composer require itzbund/a11y-backend
+```
+
+In TYPO3 installations above version 11.5 the extension will be automatically installed. You do not have to activate it manually.
+
 ## Usage
 Nothing to do. Just include the extension and your backend is better than before ✨.
 

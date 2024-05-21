@@ -1,0 +1,84 @@
+# This repository adheres to the publiccode.yml standard by including this
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+name: a11y_backend
+applicationSuite: Government Site Builder 11
+url: 'https://gitlab.opencode.de/bmi/government-site-builder-11/extensions/a11y_backend'
+releaseDate: '2024-05-07'
+developmentStatus: development
+softwareType: addon
+platforms:
+  - web
+categories:
+  - communications
+  - content-management
+maintenance:
+  type: contract
+  contacts:
+    - name: GSB 11 Development
+      email: governmentsitebuilder@bmi.bund.de
+  contractors:
+    - name: ITZBund - II B 2 - GSB 11 Team
+      until: '2024-06-30'
+legal:
+  license: GPL-3.0-or-later
+  mainCopyrightOwner: '2023 - 2024 Bundesrepublik Deutschland, vertreten durch das  BMI/ITZBund'
+localisation:
+  localisationReady: true
+  availableLanguages:
+    - de
+    - en
+description:
+  de:
+    genericName: content-management-system
+    shortDescription: GSB 11 - a11y_backend
+    longDescription: >
+      ## Bitte beachten Sie!
+
+      **Dieses Projekt spiegelt den aktuellen Stand der Entwicklung der gsb 11
+      Erweiterung wider. Es enthält Funktionen und Features, die noch nicht
+      durch einen Abnahmetest geprüft wurden. Bitte verwenden Sie die Version,
+      die mit dem vierteljährlichen Release oder einem Sicherheitsupdate
+      veröffentlicht wurde.**
+
+
+      ## Erweiterung: a11y\_backend
+
+      Die Extension a11y\_backend bringt weitere Optionen zur Barrierefreiheit
+      in das TYPO3 Backend. Das GSB 11 Team Contributet zur TYPO3 Entwicklung um
+      das TYPO3 Backend Barrierearm zu gestallten.
+
+    features:
+      - Barrierefreiheitsverbesserungen im TYPO3 Backend
+    documentation: 'https://gitlab.opencode.de/bmi/government-site-builder-11/extensions/a11y_backend'
+  en:
+    genericName: content-management-system
+    shortDescription: GSB 11 - a11y_backend
+    longDescription: >
+      ## Please note!
+
+      **This project reflects the current state of development of the gsb 11
+      extension. It contains functions and features that have not been tested by
+      an acceptance test. Please use the version that was published with the
+      quarterly release or a security update.**
+
+
+      ## Extension: a11y\_backend
+
+      The extension a11y\_backend brings further accessibility options
+      to the TYPO3 backend. The GSB 11 team contributes to the TYPO3 development to
+      to make the TYPO3 backend barrier-free.
+
+    features:
+      - Options for a barrier-free TYPO3 backend
+    documentation: 'https://gitlab.opencode.de/bmi/government-site-builder-11/extensions/a11y_backend'
+dependsOn:
+  open:
+    - name: TYPO3
+      versionMin: 12.4.0
+      versionMax: 12.4.99
+    - name: PHP
+      versionMin: '8.1'
+      versionMax: '8.3'

@@ -39,4 +39,5 @@ To get started, have a look at our [detailed contribution walkthrough](https://g
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [a11y-project-url]: https://www.a11yproject.com/
-[kickstarter-url]: https://git.gsb-itzbund.de/gsb11/extensions/gsb_sitepackage
+[kickstarter-url]: https://gitlab.opencode.de/bmi/government-site-builder-11/extensions/gsb_sitepackage
+[gsb11-readme-url]: https://gitlab.opencode.de/bmi/government-site-builder-11/extensions

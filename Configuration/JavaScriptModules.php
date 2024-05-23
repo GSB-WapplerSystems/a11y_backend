@@ -1,5 +1,9 @@
 <?php
 
+// SPDX-FileCopyrightText: 2024 Bundesrepublik Deutschland, vertreten durch das BMI/ITZBund
+//
+// SPDX-License-Identifier: GPL-3.0-or-later
+
 return [
     // required import configurations of other extensions,
     // in case a module imports from another package

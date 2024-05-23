@@ -1,5 +1,9 @@
 <?php
 
+// SPDX-FileCopyrightText: 2024 Bundesrepublik Deutschland, vertreten durch das BMI/ITZBund
+//
+// SPDX-License-Identifier: GPL-3.0-or-later
+
 /*
  * This file is part of the package itzbund/a11y-backend of the GSB 11 Project by ITZBund.
  *

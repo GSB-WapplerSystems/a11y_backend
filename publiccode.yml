@@ -3,8 +3,9 @@
 # More info at https://github.com/italia/publiccode.yml
 
 publiccodeYmlVersion: '0.2'
-name: a11y_backend
+name: Government Site Builder 11 - Extension:a11y_backend
 applicationSuite: Government Site Builder 11
+logo: 'https://produkt.gsb.bund.de/SiteGlobals/Frontend/Images/logo.png'
 url: 'https://gitlab.opencode.de/bmi/government-site-builder-11/extensions/a11y_backend'
 releaseDate: '2024-05-07'
 developmentStatus: development
@@ -43,8 +44,12 @@ description:
       die mit dem vierteljährlichen Release oder einem Sicherheitsupdate
       veröffentlicht wurde.**
 
+      **Um die aktuelle freigegebene Releaseversion des GSB11 zu erhalten, die
+      künftig quartalsweise Abnahmetests unterzogen wird, wenden Sie sich bitte an
+      gsb11-entwicklung@itzbund.de.**
 
-      ## Erweiterung: a11y\_backend
+
+      ## Government Site Builder 11 - Erweiterung: a11y\_backend
 
       Die Extension a11y\_backend bringt weitere Optionen zur Barrierefreiheit
       in das TYPO3 Backend. Das GSB 11 Team Contributet zur TYPO3 Entwicklung um
@@ -64,8 +69,11 @@ description:
       an acceptance test. Please use the version that was published with the
       quarterly release or a security update.**
 
+      **To obtain the current approved release version of the GSB11, which will be
+      subject to quarterly acceptance tests in the future, please contact
+      gsb11-entwicklung@itzbund.de.**
 
-      ## Extension: a11y\_backend
+      ## Government Site Builder 11 - Extension: a11y\_backend
 
       The extension a11y\_backend brings further accessibility options
       to the TYPO3 backend. The GSB 11 team contributes to the TYPO3 development to

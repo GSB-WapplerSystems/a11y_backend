@@ -1,11 +1,17 @@
-const webpack = require('webpack')
-const path = require('path')
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const StyleLintPlugin = require('stylelint-webpack-plugin')
-const ESLintPlugin = require('eslint-webpack-plugin')
-const CopyPlugin = require('copy-webpack-plugin')
+// SPDX-FileCopyrightText: 2024 Bundesrepublik Deutschland, vertreten durch das BMI/ITZBund
+//
+// SPDX-License-Identifier: GPL-3.0-or-later
 
-module.exports = {
+import path from 'path';
+import {fileURLToPath} from 'url';
+import MiniCssExtractPlugin from 'mini-css-extract-plugin';
+import StyleLintPlugin from 'stylelint-webpack-plugin';
+import ESLintPlugin from 'eslint-webpack-plugin';
+import CopyPlugin from 'copy-webpack-plugin';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+export default {
   // Define the entry points of our application (can be multiple for different sections of a website)
   entry: {
     screen: './Assets/Scripts/screen.js'
@@ -49,7 +55,7 @@ module.exports = {
         ]
       },
       {
-        test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
+        test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/, /\.svg$/],
         type: 'asset/resource',
         generator: {
           filename: 'Images/[name][ext]'
@@ -92,4 +98,4 @@ module.exports = {
       chunkFilename: '[id].css'
     })
   ]
-}
+};

@@ -15,44 +15,44 @@
  * The TYPO3 project - inspiring people to share!
  */
 
-import DocumentService from '@typo3/core/document-service.js'
-import FormEngineValidation from '@typo3/backend/form-engine-validation.js'
-import $ from 'jquery'
+import DocumentService from '@typo3/core/document-service.js';
+import FormEngineValidation from '@typo3/backend/form-engine-validation.js';
+import $ from 'jquery';
 
 class AriaValidationHints {
   constructor () {
-    this.initialize()
+    this.initialize();
   }
 
   static markedFields = [];
 
   static addAriaValidationHints () {
     AriaValidationHints.markedFields.forEach(function (elem) {
-      elem.setAttribute('aria-invalid', false)
-    })
-    const invalidFields = AriaValidationHints.findInvalidFields()
+      elem.setAttribute('aria-invalid', false);
+    });
+    const invalidFields = AriaValidationHints.findInvalidFields();
     invalidFields.forEach(function (elem) {
-      const formElement = elem.querySelector('.form-wizards-element .form-select[data-formengine-input-name], .form-wizards-element .form-control[data-formengine-input-name]')
-      AriaValidationHints.markedFields.push(formElement)
-      formElement.setAttribute('aria-invalid', true)
-    })
+      const formElement = elem.querySelector('.form-wizards-element .form-select[data-formengine-input-name], .form-wizards-element .form-control[data-formengine-input-name]');
+      AriaValidationHints.markedFields.push(formElement);
+      formElement.setAttribute('aria-invalid', true);
+    });
   }
 
   static findMarkedInvalidFields () {
-    return document.querySelectorAll('.tab-content .form-wizards-element [data-formengine-input-name][aria-invalid]')
+    return document.querySelectorAll('.tab-content .form-wizards-element [data-formengine-input-name][aria-invalid]');
   }
 
   static findInvalidFields () {
-    return document.querySelectorAll('.tab-content .' + FormEngineValidation.errorClass)
+    return document.querySelectorAll('.tab-content .' + FormEngineValidation.errorClass);
   }
 
   initialize () {
     DocumentService.ready().then(() => {
-      AriaValidationHints.addAriaValidationHints()
-    })
+      AriaValidationHints.addAriaValidationHints();
+    });
     // for TYPO3 13 this has to be changed to document.addEventListener
-    $(document).on('t3-formengine-postfieldvalidation', AriaValidationHints.addAriaValidationHints)
+    $(document).on('t3-formengine-postfieldvalidation', AriaValidationHints.addAriaValidationHints);
   }
 }
 
-export default new AriaValidationHints()
+export default new AriaValidationHints();

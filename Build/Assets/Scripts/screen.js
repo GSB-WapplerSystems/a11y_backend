@@ -7,4 +7,4 @@
 /**
  * Include stylesheets
  */
-require('../Scss/screen.scss')
+import '../Scss/screen.scss';

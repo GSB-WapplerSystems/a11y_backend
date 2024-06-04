@@ -1,17 +1,17 @@
-/* eslint-disable no-undef */
-/*
-    https://stylelint.io/user-guide/rules/list
-*/
-module.exports = {
-  // eslint-disable-line no-undef
+// SPDX-FileCopyrightText: 2024 Bundesrepublik Deutschland, vertreten durch das BMI/ITZBund
+//
+// SPDX-License-Identifier: GPL-3.0-or-later
+
+/** @type {import('stylelint').Config} */
+export default {
   extends: [
-    'stylelint-config-recommended', // contains: https://github.com/stylelint/stylelint-config-recommended/blob/master/index.js
-    'stylelint-config-recommended-scss', // contains: https://github.com/kristerkari/stylelint-config-recommended-scss/blob/master/index.js
-    'stylelint-config-standard' // contains: https://github.com/stylelint/stylelint-config-standard/blob/master/index.js
+    'stylelint-config-recommended',
+    'stylelint-config-recommended-scss',
+    'stylelint-config-standard'
   ],
   plugins: [
-    'stylelint-scss', // https://github.com/kristerkari/stylelint-scss
-    'stylelint-order' // https://github.com/hudochenkov/stylelint-order
+    'stylelint-scss',
+    'stylelint-order'
   ],
   ignoreFiles: ['**/*.html', '**/*.js', '**/*.php'],
   rules: {
@@ -44,4 +44,4 @@ module.exports = {
     'selector-id-pattern': null,
     'import-notation': null
   }
-}
+};

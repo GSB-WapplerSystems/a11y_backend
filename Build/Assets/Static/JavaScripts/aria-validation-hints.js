@@ -33,13 +33,11 @@ class AriaValidationHints {
     const invalidFields = AriaValidationHints.findInvalidFields();
     invalidFields.forEach(function (elem) {
       const formElement = elem.querySelector('.form-wizards-element .form-select[data-formengine-input-name], .form-wizards-element .form-control[data-formengine-input-name]');
-      AriaValidationHints.markedFields.push(formElement);
-      formElement.setAttribute('aria-invalid', true);
+      if (formElement) {
+        AriaValidationHints.markedFields.push(formElement);
+        formElement.setAttribute('aria-invalid', true);
+      }
     });
-  }
-
-  static findMarkedInvalidFields () {
-    return document.querySelectorAll('.tab-content .form-wizards-element [data-formengine-input-name][aria-invalid]');
   }
 
   static findInvalidFields () {

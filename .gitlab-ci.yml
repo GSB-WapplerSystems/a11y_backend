@@ -7,3 +7,7 @@ stages:
 
 include:
   - component: ${CI_SERVER_HOST}/gsb11/gitlab-ci-cd-components/gsb-extensions/build@feature/components
+
+mega-linter:
+  rules:
+    - when: never

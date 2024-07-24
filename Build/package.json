@@ -34,7 +34,7 @@
 		"globals": "15.8.0",
 		"mini-css-extract-plugin": "2.9.0",
 		"path": "0.12.7",
-		"postcss": "8.4.39",
+		"postcss": "8.4.40",
 		"postcss-inline-svg": "6.0.0",
 		"postcss-loader": "8.1.1",
 		"postcss-preset-env": "9.6.0",

@@ -1,0 +1,61 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Attribute class ITZBund\\\\A11yBackend\\\\Controller\\\\Controller does not exist\\.$#"
+			count: 1
+			path: Classes/Controller/LoginControllerXclass.php
+
+		-
+			message: "#^Attribute class ITZBund\\\\A11yBackend\\\\Controller\\\\Controller does not exist\\.$#"
+			count: 1
+			path: Classes/Controller/SetupModuleControllerXclass.php
+
+		-
+			message: "#^Casting to int something that's already int\\.$#"
+			count: 2
+			path: Classes/Controller/SetupModuleControllerXclass.php
+
+		-
+			message: "#^Construct empty\\(\\) is not allowed\\. Use more strict comparison\\.$#"
+			count: 2
+			path: Classes/Controller/SetupModuleControllerXclass.php
+
+		-
+			message: "#^Method ITZBund\\\\A11yBackend\\\\Controller\\\\SetupModuleControllerXclass\\:\\:renderUserSetup\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/Controller/SetupModuleControllerXclass.php
+
+		-
+			message: "#^Offset 'uid' does not exist on array\\|null\\.$#"
+			count: 1
+			path: Classes/Controller/SetupModuleControllerXclass.php
+
+		-
+			message: "#^Only booleans are allowed in a ternary operator condition, int\\<0, max\\> given\\.$#"
+			count: 2
+			path: Classes/Controller/SetupModuleControllerXclass.php
+
+		-
+			message: "#^Only booleans are allowed in an if condition, TYPO3\\\\CMS\\\\Backend\\\\Backend\\\\Avatar\\\\Image\\|null given\\.$#"
+			count: 1
+			path: Classes/Controller/SetupModuleControllerXclass.php
+
+		-
+			message: "#^Only booleans are allowed in an if condition, int given\\.$#"
+			count: 2
+			path: Classes/Controller/SetupModuleControllerXclass.php
+
+		-
+			message: "#^Parameter \\#1 \\$backendUser of method TYPO3\\\\CMS\\\\Backend\\\\Backend\\\\Avatar\\\\DefaultAvatarProvider\\:\\:getImage\\(\\) expects array, array\\|null given\\.$#"
+			count: 1
+			path: Classes/Controller/SetupModuleControllerXclass.php
+
+		-
+			message: "#^Method ITZBund\\\\A11yBackend\\\\Hook\\\\AddAriaValidationJavascript\\:\\:addJavascript\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: Classes/Hook/AddAriaValidationJavascript.php
+
+		-
+			message: "#^Method ITZBund\\\\A11yBackend\\\\Hook\\\\AddAriaValidationJavascript\\:\\:addJavascript\\(\\) has parameter \\$param with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: Classes/Hook/AddAriaValidationJavascript.php

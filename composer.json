@@ -28,6 +28,7 @@
 		}
 	],
 	"require": {
+		"typo3/cms-setup": "^12.4",
 		"typo3/cms-backend": "^12.4"
 	},
 	"require-dev": {

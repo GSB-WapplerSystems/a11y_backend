@@ -19,7 +19,7 @@
 	"dependencies": {
 		"@popperjs/core": "^2.11.8",
 		"bootstrap": "^5.3.3",
-		"mediaelement": "5.1.1",
+		"mediaelement": "7.0.5",
 		"swiper": "^11.1.4"
 	},
 	"devDependencies": {

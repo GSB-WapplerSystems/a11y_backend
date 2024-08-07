@@ -11,7 +11,7 @@
 			"dependencies": {
 				"@popperjs/core": "^2.11.8",
 				"bootstrap": "^5.3.3",
-				"mediaelement": "5.1.1",
+				"mediaelement": "7.0.5",
 				"swiper": "^11.1.4"
 			},
 			"devDependencies": {
@@ -4864,9 +4864,10 @@
 			"dev": true
 		},
 		"node_modules/mediaelement": {
-			"version": "5.1.1",
-			"resolved": "https://registry.npmjs.org/mediaelement/-/mediaelement-5.1.1.tgz",
-			"integrity": "sha512-dmS/HT4iV/YlCSSf/Tto66m3sptHnPiTld3Y64lSLnqXYOH/f3vXhA0AW01zEHS37HMAlrYQ0kEDxhpwej+6eA==",
+			"version": "7.0.5",
+			"resolved": "https://registry.npmjs.org/mediaelement/-/mediaelement-7.0.5.tgz",
+			"integrity": "sha512-KFtaLZa7FzK3yuES/G+pL/W1OxGjaklSxdbmLgVs/Ls2JY45XPTZ4U8iOGwVr+nrytrRT0fJw73epPF6xCVvyQ==",
+			"license": "MIT",
 			"dependencies": {
 				"global": "^4.3.1",
 				"svg4everybody": "^2.1.9"

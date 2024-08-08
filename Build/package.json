@@ -18,9 +18,7 @@
 	"license": "GPL-3.0-or-later",
 	"dependencies": {
 		"@popperjs/core": "^2.11.8",
-		"bootstrap": "^5.3.3",
-		"mediaelement": "7.0.5",
-		"swiper": "^11.1.4"
+		"bootstrap": "^5.3.3"
 	},
 	"devDependencies": {
 		"@eslint/js": "9.8.0",

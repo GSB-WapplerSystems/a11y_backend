@@ -30,7 +30,7 @@
 		"eslint-webpack-plugin": "4.2.0",
 		"fast-glob": "3.3.2",
 		"globals": "15.9.0",
-		"mini-css-extract-plugin": "2.9.0",
+		"mini-css-extract-plugin": "2.9.1",
 		"path": "0.12.7",
 		"postcss": "8.4.41",
 		"postcss-inline-svg": "6.0.0",

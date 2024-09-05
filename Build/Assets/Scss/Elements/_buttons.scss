@@ -30,6 +30,11 @@
   }
 }
 
+.btn-primary {
+  --bs-btn-bg: #0070e6;
+  --bs-btn-border-color: #50b0ff;
+}
+
 .modulemenu-action {
   &:not(:disabled) {
     &:hover,
@@ -60,27 +65,4 @@
 
 .text-body-secondary {
   color: #000 !important;
-}
-
-.cropper .panel-group label[data-method="setAspectRatio"] {
-    margin-bottom: 4px;
-}
-
-.cropper .panel-group label[data-method="setAspectRatio"]:has(input[type="radio"]:focus),
-.cropper .panel-group label[data-method="setAspectRatio"]:hover,
-.cropper .panel-group table:has(input[type="radio"]:focus),
-.cropper .panel-group :not(.btn-check)+.btn:active,
-.cropper .panel-group .btn:focus {
-    border-color: transparent !important;
-    background-color: #FF8701 !important;
-    color: #222 !important;
-}
-
-.cropper .panel-group [aria-expanded="true"][data-bs-toggle="collapse"],
-.cropper .panel-heading .panel-title>[data-crop-variant]:focus {
-    background-color: #555 !important;
-}
-
-.cropper .panel-group .btn:focus-visible {
-    box-shadow: none !important;
 }

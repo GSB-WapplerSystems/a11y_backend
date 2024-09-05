@@ -1,0 +1,51 @@
+.cropper .panel-group label[data-method="setAspectRatio"] {
+  margin-bottom: 4px;
+}
+
+.cropper .panel-group label[data-method="setAspectRatio"]:has(input[type="radio"]:focus),
+.cropper .panel-group label[data-method="setAspectRatio"]:hover,
+.cropper .panel-group table:has(input[type="radio"]:focus),
+.cropper .panel-group :not(.btn-check)+.btn:active,
+.cropper .panel-group .btn:focus {
+  border-color: transparent !important;
+  background-color: #FF8701 !important;
+  color: #222 !important;
+}
+
+.cropper .panel-group [data-bs-toggle]:focus {
+  background-color: #ff8701;
+  color: #222 !important;
+}
+
+.cropper .panel-group .btn:focus-visible {
+  box-shadow: none !important;
+}
+
+.cropper .panel-group .panel.panel-default {
+  .panel-body {
+    border-inline-start: 2px transparent solid;
+  }
+
+  a:any-link:focus-visible {
+    outline-offset: 0;
+  }
+
+  border: 2px solid transparent;
+
+  [aria-expanded="true"] {
+    border-inline-start: 2px transparent solid;
+  }
+}
+
+.cropper .panel-group .panel.panel-default:has(> .collapse.show),
+{
+  border: 2px solid #fff;
+}
+
+.modal-footer .btn:focus, .modal-footer .btn:hover {
+  outline: 3px solid rgb(255 255 255 / 75%) !important;
+}
+
+.modal-footer .btn-primary {
+  background-color: #0060d6;
+}

@@ -30,6 +30,11 @@
   }
 }
 
+.btn-primary {
+  --bs-btn-bg: #0070e6;
+  --bs-btn-border-color: #50b0ff;
+}
+
 .modulemenu-action {
   &:not(:disabled) {
     &:hover,

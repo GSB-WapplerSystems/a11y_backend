@@ -27,7 +27,7 @@
 				"postcss": "8.4.47",
 				"postcss-inline-svg": "6.0.0",
 				"postcss-loader": "8.1.1",
-				"postcss-preset-env": "10.0.3",
+				"postcss-preset-env": "10.0.4",
 				"postcss-pxtorem": "6.1.0",
 				"postcss-svgo": "7.0.1",
 				"sass": "1.78.0",
@@ -655,9 +655,9 @@
 			}
 		},
 		"node_modules/@csstools/postcss-light-dark-function": {
-			"version": "2.0.2",
-			"resolved": "https://registry.npmjs.org/@csstools/postcss-light-dark-function/-/postcss-light-dark-function-2.0.2.tgz",
-			"integrity": "sha512-QAWWDJtJ7ywzhaMe09QwhjhuwB0XN04fW1MFwoEJMcYyiQub4a57mVFV+ngQEekUhsqe/EtKVCzyOx4q3xshag==",
+			"version": "2.0.3",
+			"resolved": "https://registry.npmjs.org/@csstools/postcss-light-dark-function/-/postcss-light-dark-function-2.0.3.tgz",
+			"integrity": "sha512-8+lV5IKySJGtBXOwRVBPzwnTsVGKdsjnszsC/21DdKI+F279HcOfWgwTNpE0+NvX78bTlDD2kMqTaJ4T0VYzvA==",
 			"dev": true,
 			"funding": [
 				{
@@ -4810,9 +4810,9 @@
 			}
 		},
 		"node_modules/postcss-preset-env": {
-			"version": "10.0.3",
-			"resolved": "https://registry.npmjs.org/postcss-preset-env/-/postcss-preset-env-10.0.3.tgz",
-			"integrity": "sha512-1nrZ4IeBXEEj53IMoRKE+k/Ub6nQb3gFjaxTeyUNG5zv3JQclFDY5GKKhAi3nsa1lnPMWgzQX+/1y6wUt2+I7Q==",
+			"version": "10.0.4",
+			"resolved": "https://registry.npmjs.org/postcss-preset-env/-/postcss-preset-env-10.0.4.tgz",
+			"integrity": "sha512-FKwHOV7NHxu7PNhAhhOSwbAQrHTcvF/yfrObNMr4iTljmPYzsM7eRr9sYhSFq2if1GahrAv1SmmhFrcNWdFIuA==",
 			"dev": true,
 			"funding": [
 				{
@@ -4838,7 +4838,7 @@
 				"@csstools/postcss-ic-unit": "^4.0.0",
 				"@csstools/postcss-initial": "^2.0.0",
 				"@csstools/postcss-is-pseudo-class": "^5.0.0",
-				"@csstools/postcss-light-dark-function": "^2.0.2",
+				"@csstools/postcss-light-dark-function": "^2.0.3",
 				"@csstools/postcss-logical-float-and-clear": "^3.0.0",
 				"@csstools/postcss-logical-overflow": "^2.0.0",
 				"@csstools/postcss-logical-overscroll-behavior": "^2.0.0",

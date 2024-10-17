@@ -38,7 +38,7 @@
 		"postcss-preset-env": "10.0.7",
 		"postcss-pxtorem": "6.1.0",
 		"postcss-svgo": "7.0.1",
-		"sass": "1.79.5",
+		"sass": "1.80.0",
 		"sass-loader": "16.0.2",
 		"style-loader": "4.0.0",
 		"stylelint": "16.10.0",

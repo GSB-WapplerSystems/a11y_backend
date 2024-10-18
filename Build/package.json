@@ -17,8 +17,8 @@
 	"author": "ITZBund",
 	"license": "GPL-3.0-or-later",
 	"dependencies": {
-		"@popperjs/core": "^2.11.8",
-		"bootstrap": "^5.3.3"
+		"@popperjs/core": "2.11.8",
+		"bootstrap": "5.3.3"
 	},
 	"devDependencies": {
 		"@eslint/js": "9.12.0",
@@ -38,7 +38,7 @@
 		"postcss-preset-env": "10.0.7",
 		"postcss-pxtorem": "6.1.0",
 		"postcss-svgo": "7.0.1",
-		"sass": "1.80.2",
+		"sass": "1.77.6",
 		"sass-loader": "16.0.2",
 		"style-loader": "4.0.0",
 		"stylelint": "16.10.0",

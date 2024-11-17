@@ -35,7 +35,7 @@
 		"postcss": "8.4.49",
 		"postcss-inline-svg": "6.0.0",
 		"postcss-loader": "8.1.1",
-		"postcss-preset-env": "10.1.0",
+		"postcss-preset-env": "10.1.1",
 		"postcss-pxtorem": "6.1.0",
 		"postcss-svgo": "7.0.1",
 		"sass": "1.77.6",

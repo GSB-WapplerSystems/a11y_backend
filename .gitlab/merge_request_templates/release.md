@@ -7,11 +7,15 @@ PHP 8.2.
 
 ### Neue Funktionen:
 
-* ******** ERGÄNZEN ********
+* ******** FEATURES ERGÄNZEN ********
 
 ### Behobene Probleme:
 
-* ******** ERGÄNZEN ********
+* ******** FIXES ERGÄNZEN ********
+
+### Sonstige Anpassungen:
+
+* ******** CHORES ERGÄNZEN ********
 
 ### Bekannte Probleme:
 
